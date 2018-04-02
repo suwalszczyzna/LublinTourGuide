@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingEnd="@dimen/contant_scrolling_side_padding"
+    android:paddingStart="@dimen/contant_scrolling_side_padding"
+    android:paddingTop="@dimen/standard_padding"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/phoneLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lineSpacingExtra="@dimen/scrolling_view_spacing_extra"
+                android:padding="@dimen/standard_padding"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="@string/phone" />
+
+            <TextView
+                android:id="@+id/src_phone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:lineSpacingExtra="@dimen/scrolling_view_spacing_extra"
+                android:padding="@dimen/standard_padding"
+                tools:text="81 100 700 520" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/addressLabel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:lineSpacingExtra="@dimen/scrolling_view_spacing_extra"
+                android:padding="@dimen/standard_padding"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="@string/address" />
+
+            <TextView
+                android:id="@+id/src_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:padding="@dimen/standard_padding"
+                tools:text="ul. Pokątna 16/52, Lublin" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/standard_padding"
+            android:textColor="@color/colorPrimary"
+            android:text="@string/description"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/src_descr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="@dimen/scrolling_view_spacing_extra"
+            android:padding="8dp"
+            tools:text="Phasellus sodales, tortor ut interdum aliquet, purus nibh tincidunt neque, at commodo nibh purus non lorem. Suspendisse malesuada massa eu felis facilisis tincidunt eu non eros. Fusce tincidunt arcu eget lorem cursus porttitor. Phasellus imperdiet nulla vitae est fermentum, id viverra dui eleifend. In sit amet odio neque. Fusce eget finibus nulla. Cras eu justo at dolor laoreet interdum sit amet sit amet dui. Pellentesque arcu turpis, molestie eget quam id, pharetra consequat mi. Proin vehicula aliquet sapien, sit amet blandit est pretium vitae. Duis gravida gravida augue sit amet congue. Donec pellentesque tortor ante, eget semper nulla suscipit interdum. Aliquam erat volutpat. In ultrices non nunc ut ultricies. Maecenas at massa ut ante congue mollis. Sed facilisis mattis lobortis. Fusce ac iaculis dui." />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

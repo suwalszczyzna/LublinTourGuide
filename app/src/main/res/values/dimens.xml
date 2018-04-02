@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="guidline_margin">32dp</dimen>
+    <dimen name="standard_padding">8dp</dimen>
+    <dimen name="list_item_height">130dp</dimen>
+    <dimen name="padding_textInList">16dp</dimen>
+    <dimen name="descr_size">16dp</dimen>
+    <dimen name="padding_drawable">16dp</dimen>
+    <dimen name="margin_top_descr">8dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="scroll_bar_height">230dp</dimen>
+    <dimen name="card_description_height">190dp</dimen>
+    <dimen name="card_list_title_height">60dp</dimen>
+    <dimen name="card_list_title_size">18sp</dimen>
+    <dimen name="contant_scrolling_side_padding">16dp</dimen>
+    <dimen name="scrolling_view_spacing_extra">14sp</dimen>
+    <dimen name="list_item_title_text">16sp</dimen>
+
+</resources>
